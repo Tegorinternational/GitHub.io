@@ -1,9 +1,3 @@
-body{
-  background: url("https://images.pexels.com/photos/3825880/pexels-photo-3825880.jpeg?cs=srgb&dl=pexels-evie-shaffer-3825880.jpg") no-repeat center fixed;
-  background-size: cover;
-  background-color: #FFF;
-}
-
 
 html{
   scroll-behavior: smooth;
