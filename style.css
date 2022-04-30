@@ -1,3 +1,9 @@
+body{
+  background: url(/pexels-evie-shaffer-3825880.jpg) no-repeat center fixed;
+  background-size: cover;
+  background-color: #FFF;
+}
+
 
 html{
   scroll-behavior: smooth;
