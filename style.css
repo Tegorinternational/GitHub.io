@@ -312,3 +312,41 @@ font::selection{
   background-color: #7799FE1A;
 }
 /*#2245AD1A*/
+.border-blue-003{
+  border-color: #0D47A1;
+}
+/*#2245AD1A
+0D47A1
+rgba(13, 71, 161, 1)
+FF6A00*/
+
+
+.card-buttons {
+  display: flex;
+  background-color: none;
+  margin: auto;
+  
+}
+.card-buttons button {
+  flex: 1 1 auto;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background: 0;
+  font-size: 13px;
+  border: 0;
+  padding: 15px 5px;
+  cursor: pointer;
+  color: #FF6A00;
+  transition: 0.3s;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  outline: 0;
+  border-bottom: 3px solid transparent;
+}
+.card-buttons button.is-active, .card-buttons button:hover {
+  color: #fff;
+  border-bottom: 3px solid #0D47A1;
+  background: linear-gradient(to bottom, rgba(13, 71, 161, 0) 0%, rgba(13, 71, 161, 0.2) 44%, rgba(13, 71, 161, 0.4) 100%);
+}
