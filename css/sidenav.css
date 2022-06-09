@@ -1,0 +1,90 @@
+.sidenav {
+  height: 100vh;
+  width: 0;
+  position: fixed;
+  z-index: 40;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 50px;
+  background-color: whitesmoke;
+  box-shadow: 20px 20px 50px 10px darkgray inset;
+}
+.sidenav a{
+  padding: 10px;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #000;
+  display: table;
+  transition: 0.3s;
+  margin-top: 5px;
+}
+.sidenav a:hover {
+  color: #FF7D04;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 46px;
+  margin-left: 50px;
+  color: #000;
+}
+.sdimg{
+  width: 90%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 400px) {
+  .sdimg{
+    width: 70%;
+  }
+}
+.dropdown{
+  padding: 10px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: 0.3s;
+  margin-top: 5px;
+  outline: none;
+  border: none;
+  width: 80%;
+}
+details {
+  position: relative;
+  color: #575757;
+}
+details .summary-title {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+details .summary-content {
+  cursor: default;
+}
+details summary {
+  list-style: none;
+  
+}
+details > summary::-webkit-details-marker {
+    display: none;
+    
+}
+
+details > summary::before {
+    content: '➕';
+    float: right;
+    font-size: 0.75rem;
+  }
+
+details[open] > summary::before {
+    content: '➖';
+  }
+details summary:focus {
+  outline: none;
+}
+summary:active {
+  color: #000;
+}
