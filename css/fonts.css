@@ -1,0 +1,11 @@
+@font-face {font-family: gilroyBold; src: url(/fonts/Gilroy-Bold.ttf);}
+@font-face {font-family: gilroyLight; src: url(/fonts/Gilroy-Light.ttf);}
+@font-face {font-family: gilroyMedium; src: url(/fonts/Gilroy-Medium.ttf);}
+@font-face {font-family: gilroyRegular; src: url(/fonts/Gilroy-Regular.ttf);}
+/*
+body
+{font-family:gilroyMedium;}
+.footer-quick-title{
+  font-family: gilroyBold;
+}
+*/
