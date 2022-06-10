@@ -9,3 +9,8 @@ body
   font-family: gilroyBold;
 }
 */
+.icon{
+  font-family: fontawesome;
+  margin-left: 8px;
+  border-radius: 3px;
+}
