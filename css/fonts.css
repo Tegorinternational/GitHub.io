@@ -2,6 +2,9 @@
 @font-face {font-family: gilroyLight; src: url(/fonts/Gilroy-Light.ttf);}
 @font-face {font-family: gilroyMedium; src: url(/fonts/Gilroy-Medium.ttf);}
 @font-face {font-family: gilroyRegular; src: url(/fonts/Gilroy-Regular.ttf);}
+
+@font-face {font-family: fontawesome; src: url(https://tegorinternational.github.io/GitHub.io/fonts/fontosm.otf);}
+
 /*
 body
 {font-family:gilroyMedium;}
