@@ -1,0 +1,34 @@
+{
+  "name": "Tegor International",
+  "short_name": "Tegor International",
+  "icons": [{
+    "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX_EW1z1EAiqibSeW3pw1kvTa9XFV0xhoQK8ucHzYdUeV9ArqEGq1TqoU3oOmkn1_wtb1iFtxr8gbTyhjfic0V4dGeuLgHlS7QFYqxLUY42i6L0hfloTfyDqvdxBaA9lysTJ0zix2FTXI6vW1kGhxZ6U5CX25RabCuDNKyK9SD7rcrZanybbmQ2zUf9w/s3264/20220325_152337.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }, {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX_EW1z1EAiqibSeW3pw1kvTa9XFV0xhoQK8ucHzYdUeV9ArqEGq1TqoU3oOmkn1_wtb1iFtxr8gbTyhjfic0V4dGeuLgHlS7QFYqxLUY42i6L0hfloTfyDqvdxBaA9lysTJ0zix2FTXI6vW1kGhxZ6U5CX25RabCuDNKyK9SD7rcrZanybbmQ2zUf9w/s3264/20220325_152337.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }, {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX_EW1z1EAiqibSeW3pw1kvTa9XFV0xhoQK8ucHzYdUeV9ArqEGq1TqoU3oOmkn1_wtb1iFtxr8gbTyhjfic0V4dGeuLgHlS7QFYqxLUY42i6L0hfloTfyDqvdxBaA9lysTJ0zix2FTXI6vW1kGhxZ6U5CX25RabCuDNKyK9SD7rcrZanybbmQ2zUf9w/s3264/20220325_152337.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    }, {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX_EW1z1EAiqibSeW3pw1kvTa9XFV0xhoQK8ucHzYdUeV9ArqEGq1TqoU3oOmkn1_wtb1iFtxr8gbTyhjfic0V4dGeuLgHlS7QFYqxLUY42i6L0hfloTfyDqvdxBaA9lysTJ0zix2FTXI6vW1kGhxZ6U5CX25RabCuDNKyK9SD7rcrZanybbmQ2zUf9w/s3264/20220325_152337.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }, {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX_EW1z1EAiqibSeW3pw1kvTa9XFV0xhoQK8ucHzYdUeV9ArqEGq1TqoU3oOmkn1_wtb1iFtxr8gbTyhjfic0V4dGeuLgHlS7QFYqxLUY42i6L0hfloTfyDqvdxBaA9lysTJ0zix2FTXI6vW1kGhxZ6U5CX25RabCuDNKyK9SD7rcrZanybbmQ2zUf9w/s3264/20220325_152337.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }, {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX_EW1z1EAiqibSeW3pw1kvTa9XFV0xhoQK8ucHzYdUeV9ArqEGq1TqoU3oOmkn1_wtb1iFtxr8gbTyhjfic0V4dGeuLgHlS7QFYqxLUY42i6L0hfloTfyDqvdxBaA9lysTJ0zix2FTXI6vW1kGhxZ6U5CX25RabCuDNKyK9SD7rcrZanybbmQ2zUf9w/s3264/20220325_152337.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }],
+  "lang": "en-US",
+  "start_url": "https://tegorinternational.github.io/GitHub.io/",
+  "display": "standalone",
+  "background_color": "white",
+  "theme_color": "#0D47A1"
+}
