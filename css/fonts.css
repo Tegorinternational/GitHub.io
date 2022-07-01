@@ -4,6 +4,7 @@
 @font-face {font-family: gilroyRegular; src: url(/fonts/Gilroy-Regular.ttf);}
 
 @font-face {font-family: fontawesome; src: url(https://tegorinternational.github.io/GitHub.io/fonts/fontosm.otf);}
+@font-face {font-family: micon; src: url(https://tegorinternational.github.io/GitHub.io/fonts/MaterialIcons-Regular.ttf);}
 
 /*
 body
@@ -14,6 +15,11 @@ body
 */
 .icon{
   font-family: fontawesome;
+  margin-left: 8px;
+  border-radius: 3px;
+}
+.m-icon{
+  font-family: micon;
   margin-left: 8px;
   border-radius: 3px;
 }
