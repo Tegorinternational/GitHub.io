@@ -6,13 +6,11 @@
 @font-face {font-family: fontawesome; src: url(https://tegorinternational.github.io/GitHub.io/fonts/fontosm.otf);}
 @font-face {font-family: micon; src: url(https://tegorinternational.github.io/GitHub.io/fonts/MaterialIcons-Regular.ttf);}
 
-/*
-body
-{font-family:gilroyMedium;}
-.footer-quick-title{
-  font-family: gilroyBold;
+
+.font-gilmed{font-family:gilroyMedium;}
+.font-gilbold{font-family: gilroyBold;
 }
-*/
+
 .icon{
   font-family: fontawesome;
   margin-left: 8px;
