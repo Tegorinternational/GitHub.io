@@ -56,8 +56,9 @@ logo design online free,logo design free download,logo design images,logo design
   <link rel="stylesheet" href="https://tegorinternational.github.io/GitHub.io/css/fonts.css">
   <link rel="stylesheet" href="https://tegorinternational.github.io/GitHub.io/tailwind.css">
 
-  <link rel="manifest" href="https://tegorinternational.github.io/GitHub.io/manifest.json">
-<!-- /cdn/stylesheet -->
+
+  <link rel="manifest" href="./manifest.json">
+  <!-- /cdn/stylesheet -->
 
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -149,7 +150,8 @@ header{ margin-bottom: 6px;}
           <font style="vertical-align: inherit;">Portfolio</font>
         </font>
       </a>
-
+      
+      <button class="share-button mr-5 hover:text-gray-100 focus:outline-none" type="button">Share</button>
 
     </nav>
 
@@ -254,7 +256,70 @@ header{ margin-bottom: 6px;}
     </div>-->
 <!-- /slideshow -->
  
- 
+ <section class="text-gray-600 body-font">
+     <div class="container px-5 mx-auto flex flex-wrap">
+       <div class="flex flex-wrap bg-white px-0 pt-5 w-10/12 mx-auto share-dialog rounded-t-2xl pb-0 mb-0">
+         
+  <hdr class="pb-0 px-12"> <p class="text-2xl text-black">Share our page!</p><button class="close-button text-gray-900 text-3xl">&times;</button></hdr>
+  <center class="w-full">
+               
+
+
+<div class="mb-5">
+  
+<button onclick="window.location.href='https://www.facebook.com/sharer.php?u=https://tegorinternational.github.io/GitHub.io/'" class="px-5 py-3 bg-white w-9/12 mb-0 text-lg rounded-sm"><span class="icon" style="float: left">Facebook</span>Share on Facebook</button>
+<hr class="w-8/12"/>
+<button onclick="window.location.href='https://www.messenger.com/?https://tegorinternational.github.io/GitHub.io/=fm'" class="px-5 py-3 bg-white w-9/12 mb-0 text-lg rounded-sm"><span class="icon" style="float: left; margin-right: -90px; padding-right: 0px;">facebook-messenger</span>Share via Messenger</button>
+<hr class="w-8/12"/>
+<button onclick="window.location.href='https://twitter.com/intent/tweet?url=https://tegorinternational.github.io/GitHub.io/&text=Tegor%20International&via=TegorInTGFX&hashtags=Graphics,logodesigning'" class="px-5 py-3 bg-white w-9/12 mb-0 text-lg rounded-sm"><span class="icon" style="float: left">Twitter</span>Share on Twitter</button>
+<hr class="w-8/12"/>
+<button onclick="window.location.href='https://www.linkedin.com/sharing/share-offsite/&url=https%3A%2F%2Ftegorinternational.github.io%2FGitHub.io%2F&title=Visit%20us%20to%20get%20your%20brand%20identity%20logo%20design%20or%20website.&summary=If%20you%20are%20interested%20in%20Graphic%20designing%20and%20Web%20development%20than%20visit%20us.%20'" class="px-5 py-3 bg-white w-9/12 mb-0 text-lg rounded-sm"><span class="icon" style="float: left">linkedin</span>Share on LinkedIn</button>
+<hr class="w-8/12"/>
+<button onclick="window.location.href='whatsapp://send?text=https://tegorinternational.github.io/GitHub.io/'" class="px-5 py-3 bg-white w-9/12 mb-0 text-lg rounded-sm"><span class="icon" style="float: left">WhatsApp</span>Share via WhatsApp</button>
+<hr class="w-8/12"/>
+<button onclick="window.location.href='https://telegram.me/share/url?url=https://tegorinternational.github.io/GitHub.io/&text=Tegor%20International'" class="px-5 py-3 bg-white w-9/12 mb-0 text-lg rounded-sm"><span class="icon" style="float: left">telegram</span>Share via Telegram</button>
+<hr class="w-8/12"/>
+<button onclick="window.location.href='mailto:%7Bemail_address%7D?subject=Tegor%20International&body=https://tegorinternational.github.io/GitHub.io/%20Visit%20us%20to%20get%20your%20brand%20identity%20logo%20design%20or%20website.'" class="px-5 py-3 bg-white w-9/12 mb-0 text-lg rounded-sm"><span class="m-icon" style="float: left">mail</span>Share via Mail</button>
+<hr class="w-8/12"/>
+<div class="container py-5 px-5 mx-auto flex flex-wrap w-full">
+  <span class="border-2 py-2 rounded border-black w-full" id="item-to-copy">https://tegorinternational.github.io/GitHub.io/</span>
+  
+  <button class="bg-gray-300 border-black py-2 px-5 absolute border-2 rounded right-5 hover:bg-indigo-600 hover:text-white" onclick="copyToClipboard()">Copy</button>
+</div>
+
+</div>
+</center>
+
+       </div>
+     </div>
+   </section>
+
+
+
+
+<script> 
+const shareButton = document.querySelector('.share-button'); 
+const shareDialog = document.querySelector('.share-dialog'); 
+const closeButton = document.querySelector('.close-button'); shareButton.addEventListener('click', event => { 
+if (navigator.share) { navigator.share({ title: 'Tegor International', url: 'https://tegorinternational.github.io/GitHub.io/' }).then(() => { console.log('Thanks for sharing!'); }) .catch(console.error); } 
+else { shareDialog.classList.add('is-open'); } }); closeButton.addEventListener('click', event => { shareDialog.classList.remove('is-open'); }); 
+</script>
+
+   
+   <script>
+  function copyToClipboard() {
+    const str = document.getElementById('item-to-copy').innerText
+    const el = document.createElement('textarea')
+    el.value = str
+    el.setAttribute('readonly', '')
+    el.style.position = 'absolute'
+    el.style.left = '-9999px'
+    document.body.appendChild(el)
+    el.select()
+    document.execCommand('copy')
+    document.body.removeChild(el)
+  }
+</script>
  
  
 <!-- hero -->
@@ -1063,5 +1128,6 @@ const load = () => {
 <script src="https://tegorinternational.github.io/GitHub.io/js/swiperjs.js"></script>
 <script src="https://tegorinternational.github.io/GitHub.io/js/sidenav.js"></script>
 <script src="https://tegorinternational.github.io/GitHub.io/js/main.js"></script>
+<script src="https://tegorinternational.github.io/GitHub.io/js/network.js"></script>
 </body>
 </html>
