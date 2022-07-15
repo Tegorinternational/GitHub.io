@@ -7,7 +7,7 @@ window.addEventListener('load', () => {
             try {
             await navigator.serviceWorker.register('/GitHub.io/sw.js');
             } catch (e) {
-            console.log(`SW registration failed`);
+            console.log('SW registration failed');
             }
         }
-        }
+       }
