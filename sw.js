@@ -6,6 +6,7 @@ var staticCache = 'v0.1.1';
 // Files to cache
 var files = [
   './',
+  '/GitHub.io/',
   '/index.html',
   'index.html',
   'https://tegorinternational.github.io/GitHub.io/index.html',
