@@ -1,7 +1,7 @@
 { 
   "name": "Tegor International", 
   "short_name": "Tegor International", 
-  "start_url": "./index.html", 
+  "start_url": "https://tegorinternational.github.io/GitHub.io/index.html", 
   "display": "standalone", 
   "background_color": "#fff", 
   "theme_color": "#0D47A1",
