@@ -232,12 +232,12 @@ hdr {
 
     </nav>
 
+
 <!-- side nav -->
  <div class="">
     <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhU8ZE2DcINENFRuysKjC40RWv-M4Uch5_03HigjF8DnXR_Lk2mNHTKOyFkxrTCjyOGk-9-pqcFajHttUZDeksXhvITmk_jo_yo0AoI4wTQ4oha1dnSI0wK_ixvV8aLt4Kgglu9thiAp75uSXCsnuDAkXgNIas594GVlsDDkG1wzEqqQpQxaKN_B9My9Q/s3264/20220324_223900.png" alt="" class="sdimg">
-      <a onclick="closeNav()" href="#">Home</a>
       <a onclick="closeNav()" href="https://tegorinternational.github.io/GitHub.io/ourworks.html">Work</a>
       <a onclick="closeNav()" href="https://tegorinternational.github.io/GitHub.io/start-project.html">Start project</a>
       <div class="dropdown">
@@ -252,15 +252,10 @@ hdr {
           <a onclick="closeNav()" href="#">Electronics & Arduino</a>
         </details>
       </div>
-      <a onclick="closeNav()" href="#">Gallery</a>
       <a onclick="closeNav()" href="https://tegorinternational.github.io/GitHub.io/query.html">Queries</a>
-      <a onclick="closeNav()" href="https://g.page/r/CfiLz2VlVdrvEA0/review">Reviews</a>
-      <a onclick="closeNav()" href="https://tegorinternational.github.io/GitHub.io/pages/team.html">Our Team</a>
+      <a onclick="closeNav()" href="https://g.page/r/CfiLz2VlVdrvEA0/review">Review us</a>
       <a onclick="closeNav()" href="https://tegorinternational.github.io/GitHub.io/pages/portfolio.html">Portfolio</a>
-      <a onclick="closeNav()" href="https://tegorinternational.github.io/GitHub.io/pages/portfolio.html">Blog</a>
       <a onclick="closeNav()" href="https://tegorinternationalruru.on.drv.tw/Website/cantact.html">Contact us</a>
-      <a onclick="closeNav()" href="https://tegorinternationalruru.on.drv.tw/Website/cantact.html">About</a>
-
 
 <div class="sidenav-icon">
               <a href="https://www.facebook.com/rurendra.tegor" class="icon" style="font-size: 18px; color: #fff; background-color: #4267B2; padding:6px 8px;">Facebook</a>
@@ -376,35 +371,8 @@ hdr {
 
 
 
-<script> 
-const shareButton = document.querySelector('.share-button'); 
-const shareDialog = document.querySelector('.share-dialog'); 
-const closeButton = document.querySelector('.close-button'); shareButton.addEventListener('click', event => { 
-if (navigator.share) { navigator.share({ title: 'Tegor International', url: 'https://tegorinternational.github.io/GitHub.io/' }).then(() => { console.log('Thanks for sharing!'); }) .catch(console.error); } 
-else { shareDialog.classList.add('is-open'); } }); closeButton.addEventListener('click', event => { shareDialog.classList.remove('is-open'); }); 
-</script>
 
-   
-   <script>
-  function copyToClipboard() {
-    const str = document.getElementById('item-to-copy').innerText
-    const el = document.createElement('textarea')
-    el.value = str
-    el.setAttribute('readonly', '')
-    el.style.position = 'absolute'
-    el.style.left = '-9999px'
-    document.body.appendChild(el)
-    el.select()
-    document.execCommand('copy')
-    document.body.removeChild(el)
-  }
-</script>
- 
- 
- <style>
 
- </style>
- 
   <section class="text-gray-600 body-font">
   <div class="container px-5 py-10 mx-auto flex flex-wrap text-center">
 <div class="w-full text-3xl" id="containe">
@@ -1160,6 +1128,36 @@ else { shareDialog.classList.add('is-open'); } }); closeButton.addEventListener(
 <script src="https://tegorinternational.github.io/GitHub.io/js/sidenav.js"></script>
 <script src="view.js"></script>
 <script src="canim.js"></script>
+
+
+<script> 
+const shareButton = document.querySelector('.share-button'); 
+const shareDialog = document.querySelector('.share-dialog'); 
+const closeButton = document.querySelector('.close-button'); shareButton.addEventListener('click', event => { 
+if (navigator.share) { navigator.share({ title: 'Tegor International', url: 'https://tegorinternational.github.io/GitHub.io/' }).then(() => { console.log('Thanks for sharing!'); }) .catch(console.error); } 
+else { shareDialog.classList.add('is-open'); } }); closeButton.addEventListener('click', event => { shareDialog.classList.remove('is-open'); }); 
+</script>
+
+   
+   <script>
+  function copyToClipboard() {
+    const str = document.getElementById('item-to-copy').innerText
+    const el = document.createElement('textarea')
+    el.value = str
+    el.setAttribute('readonly', '')
+    el.style.position = 'absolute'
+    el.style.left = '-9999px'
+    document.body.appendChild(el)
+    el.select()
+    document.execCommand('copy')
+    document.body.removeChild(el)
+  }
+</script>
+
+
+
+
+
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
