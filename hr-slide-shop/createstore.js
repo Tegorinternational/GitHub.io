@@ -1,4 +1,4 @@
-import data from "/hr-slide-shop/storedata.js";
+import data from "/GitHub.io/hr-slide-shop/storedata.js";
 const buildProductCard = productcard => {
   // Create elements needed to build a card
   const div1 = document.createElement("div");
