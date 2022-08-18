@@ -200,6 +200,29 @@ hdr {
   }
 
 
+  /* horizontal sidebar*/
+    .slide-card{
+    width: 250px;
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+  
+  ::-webkit-scrollbar {
+  width: 4px;
+  border: 1px solid #D5D5D5;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 0;
+  background: #EEEEEE;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background: #2283F2;
+}
+
+
 </style>
 
 
@@ -475,6 +498,80 @@ hdr {
   </div>
 </section>
 <!-- /gallery -->
+
+
+
+
+
+
+
+
+
+  <!-- store -->
+
+<section class="text-gray-600 body-font">
+    <div class="container pt-24 pb-10 mx-auto">
+      
+    <div class="flex flex-wrap w-full mb-5 px-5">
+      <div class="lg:w-1/2 w-full mb-3 lg:mb-0">
+        <h1 class="sm:text-4xl text-2xl font-medium title-font mb-2 text-gray-900 mx-auto text-center">Products</h1>
+        <div class="h-1 w-14 bg-indigo-500 rounded mx-auto"></div>
+        <p class="lg:w-1/2 w-full leading-relaxed text-gray-500 text-center my-3">We are a trusted partner for our clients and we deliver projects in time.</p>
+      </div>
+      
+      <!-- Search filter -->
+      <div class="w-full my-5 mx-auto">
+        <input class="search-bar w-4/5 bg-gray-200 py-3 px-3 outline-none text-lg text-left border-2 border-indigo-500 rounded-l-lg" type="search" placeholder="Search products name..."/>
+        <button class="border-2 border-indigo-500 search-btn w-1/5 bg-indigo-500 py-3 outline-none text-center float-right text-lg rounded-r-lg text-white" disabled type="search">Search</button>
+      </div>
+
+
+    </div>
+    
+    
+    
+    <div class="flex overflow-x-scroll flex-row items-stretch flex-nowrap overflow-y-hidden mx-auto p-5 store-card">
+      
+      
+      
+      
+      <!-- store data will appear in this section. -->
+     <div style="display: none" id="not-found" class="slide-card shrink-1 grow-1 rounded-lg mx-auto">
+        <div class="bg-gray-200 p-6 rounded-lg">
+          <img class="img-mt w-40 rounded w-full object-cover object-center mb-3 h-32" src="/my-store/not-found.jpg" alt="content">
+          <div class="w-full flex mb-3">
+            <h2 class="text-lg text-gray-900 font-medium title-font mx-auto">oops ! something went wrong</h2>
+          </div>
+          <p class="text-sm pb-3 text-center">Your search did not find any results.</p>
+          <div class="flex mt-1">
+            <div class="">
+              <span class="title-font font-medium text-xl text-gray-900">No results</span>
+            </div>
+            <a class="flex ml-auto text-white bg-indigo-500 border-0 py-2 my-auto px-5 focus:outline-none hover:bg-indigo-600 rounded">Undefined</a>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
+    
+    
+    
+    
+    </div>
+    
+    
+    <div class="flex flex-wrap mx-auto pb-10">
+      <button class="py-2 px-5 bg-blue-700 text-white text-center mx-auto rounded text-lg outline-none">Visit our Store</button>
+    </div>
+    
+  </section>
+
+
+
+
+
+
 
 
 
@@ -1330,5 +1427,9 @@ const load = () => {
 
 </script>
 <script src="/GitHub.io/index.js"></script>
+<script type="module" src="/GitHub.io/hr-slide-shop/createstore.js"></script>
+<script src="/GitHub.io/hr-slide-shop/main.js"></script>
+
+
 </body>
 </html>
