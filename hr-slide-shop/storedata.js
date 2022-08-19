@@ -30,7 +30,7 @@ const data = [
       "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhM54nh0zSrW7hE8mOktYvJT_OrV-aodrozg8QoZbIoENjdgB8gCSvnchXnC1cyiM4Vp6BPJX80tIkxY02bV0PjvZq9NfAI-GggYH5NmlR5laW4RxapofxR5FYjKaRZ9CTPsPky6VK3pRUJymDX_95pSgLHDp0dlnafL5Ye0APRvYNgsp3K8EBVS2K2Dg/s320/L19.png",
     getproductname: "FF Logo design",
     getproductid: "0123",
-    getproductDescription: "This logo design is for gaming or tech companies.",
+    getproductDescription: "This logo design is for gaming or tech company",
     getfullprice: "1180",
     getdiscount: "30",
     getdiscountedPrice: "1180",
