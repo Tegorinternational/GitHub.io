@@ -65,7 +65,7 @@ const buildProductCard = productcard => {
    buyButton.setAttribute("class", "flex ml-auto text-white bg-indigo-500 border-0 py-2 my-auto px-5 focus:outline-none hover:bg-indigo-600 rounded");
    
   // Add links
-  buyButton.setAttribute("href", productcard.buyButton);
+  buyButton.setAttribute("href", "productcard.buyButton");
 };
 
 data.forEach(productcard => buildProductCard(productcard));
