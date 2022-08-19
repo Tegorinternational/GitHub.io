@@ -10,7 +10,7 @@ const data = [
     getfullprice: "1800",
     getdiscount: "20",
     getdiscountedPrice: "1440",
-    buyButton: "https://wa.me/918889865223?text=TS%20"
+    buyButton: "https://wa.me/918889865223?text=TS%20/"
   },
   {
     id: 2,
@@ -34,7 +34,7 @@ const data = [
     getfullprice: "1180",
     getdiscount: "30",
     getdiscountedPrice: "1180",
-    buyButton: "https://wa.me/918889865223?text=TS%20"
+    buyButton: "https://wa.me/918889865223?text=TS%20/"
   },
   {
     id: 4,
@@ -46,7 +46,7 @@ const data = [
     getfullprice: "8590",
     getdiscount: "30",
     getdiscountedPrice: "6013",
-    buyButton: "https://wa.me/918889865223?text=TS%20"
+    buyButton: "https://wa.me/918889865223?text=TS%20/"
   },
   {
     id: 5,
@@ -58,7 +58,7 @@ const data = [
     getfullprice: "600",
     getdiscount: "20",
     getdiscountedPrice: "480",
-    buyButton: "https://wa.me/918889865223?text=TS%20"
+    buyButton: "https://wa.me/918889865223?text=TS%20/"
   },
   {
     id: 6,
@@ -70,7 +70,7 @@ const data = [
     getfullprice: "700",
     getdiscount: "35",
     getdiscountedPrice: "455",
-    buyButton: "https://wa.me/918889865223?text=TS%20"
+    buyButton: "https://wa.me/918889865223?text=TS%20/"
   }
   
 ];
